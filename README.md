@@ -10,3 +10,7 @@ The winner is the first to complete one complete line, row or diagonal of the ch
 Here´s the starting point:
 
 https://mtavares21.github.io/TOP_Tic-Tac-Toe/tic.html
+
+How far we've gone:
+
+https://mtavares21.github.io/Tics-Tacs-Toes-/tics.html  
