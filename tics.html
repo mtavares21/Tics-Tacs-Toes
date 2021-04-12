@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="tics.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+ <h1>Tic Tac Toe</h1>
+ <form>
+  <div class = "upForm">
+   <input type="text" name="player1" id="player1" value="Player X" autofocus="autofocus" autocomplete="off">
+   <div id = "vs">vs</div>
+   <input type="text" name="player2" id="player2" value="Computer" autocomplete="off">
+   <input type ="text" name="p1Score" class = "score" id="score1" value="0" readonly = true>
+   <input type ="text" name="score2" class = "score" id = "score2" value="0" readonly = true>
+  </div>
+  <div class="downForm">
+   <input type="text" class="submitPlayers" onclick="Controller.initRound()" ; this.onclick=null " value="Start" readonly = true>
+  </div>
+ </form>
+ <div class="displayContainer" >
+ <div class="displayUp">
+    <a class = "displayPlayer"></a><div class = "display"></div>
+ </div>
+ </div>
+ 
+ <div class="table">
+  <!--<div class = "gameBoard" id = "downRigth" data-index = 0 ></div>
+  <div class = "gameBoard" id = "sidesBottom" data-index = 1 ></div>
+  <div class = "gameBoard" id = "downLeft" data-index = 2  ></div>
+  <div class = "gameBoard" id = "upDownLeft" data-index = 3  ></div>
+  <div class = "gameBoard" id = "allBorders" data-index = 4  ></div>
+  <div class = "gameBoard" id = "leftBottom" data-index = 5  ></div>
+  <div class = "gameBoard" id = "upRigth" data-index = 6 ></div>
+  <div class = "gameBoard" id = "sidesUp" data-index = 7  ></div>
+  <div class = "gameBoard" id = "leftUp" data-index = 8 ></div>
+  <div class = "gameBoard" id = "magic" data-index = 9 ></div>
+  <div class = "gameBoard" id = "allBorders" data-index = 10  ></div>
+  <div class = "gameBoard" id = "leftBottom" data-index = 11  ></div>
+  <div class = "gameBoard" id = "upRigth" data-index = 12 ></div>
+  <div class = "gameBoard" id = "sidesUp" data-index = 13  ></div>
+  <div class = "gameBoard" id = "leftUp" data-index = 14 ></div>
+  <div class = "gameBoard" id = "magic" data-index = 15 ></div>-->
+ </div>
+ <div class = "line" id = "line"></div>
+ <script type="text/javascript" src="tics.js"></script>
+</body>
+</html>
